@@ -219,9 +219,7 @@ export default function AboutPage() {
 
             <div className="prose prose-lg max-w-none text-gray-600">
               <p className="text-xl leading-relaxed mb-6">
-                ASEM was founded in 2010 by a group of passionate ENCG Tangier students who believed that young children
-                could be powerful agents of change. What started as a small initiative to support children has
-                grown into big support to multiple local communities
+                Assistance et Soutien aux Enfants Malades is a humanitarian club founded in 2010 at ENCGT. It provides moral and material support to sick children from disadvantaged backgrounds and their families, promoting their social integration and strengthening the fight against serious illnesses through sensitization and medical assistance. In 2023, after 13 years of commitment and dedication within ENCGT, ASEM club evolved to give rise to a foundation - Assistance and Support for Moroccan Children, a non-profit association created by the school's students. Although now an independent organization, the Foundation maintains a close link with ENCGT and continues to uphold the ASEM club within its structure. The ASEM Foundation is committed to supporting Moroccan children, transforming their needs into concrete humanitarian actions filled with hope. By expanding its scope of action, the Foundation has also encouraged the creation of ASEM club affiliations in other schools, allowing its humanitarian spirit to spread across the country.
               </p>
 
               <p className="leading-relaxed mb-6">
