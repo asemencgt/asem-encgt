@@ -44,15 +44,15 @@ export default function ShopPage() {
 
             <div className="flex items-center justify-center gap-12">
               <div className="text-center">
-                <div className="text-3xl font-bold text-amber-400">15+</div>
+                <div className="text-3xl font-bold text-white">15+</div>
                 <div className="text-sm text-gray-400">YEARS</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-amber-400">500+</div>
+                <div className="text-3xl font-bold text-white">500+</div>
                 <div className="text-sm text-gray-400">LIVES</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-amber-400">100%</div>
+                <div className="text-3xl font-bold text-white">100%</div>
                 <div className="text-sm text-gray-400">PURPOSE</div>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function ShopPage() {
               <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent">
                 <div className="absolute bottom-8 left-8">
                   <h3 className="text-3xl font-bold mb-2 text-white">STREET CULTURE</h3>
-                  <p className="text-amber-400 text-lg">Authentic • Urban • Meaningful</p>
+                  <p className="text-amber-600 text-lg">Authentic • Urban • Meaningful</p>
                 </div>
               </div>
             </div>
@@ -171,7 +171,7 @@ export default function ShopPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent">
                 <div className="absolute bottom-8 left-8 right-8">
                   <h3 className="text-3xl font-bold mb-2 text-white">STATEMENT</h3>
-                  <p className="text-amber-400 text-lg">Bold • Fearless • Impactful</p>
+                  <p className="text-amber-600 text-lg">Bold • Fearless • Impactful</p>
                 </div>
               </div>
             </div>
@@ -232,7 +232,7 @@ export default function ShopPage() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button
               size="lg"
-              className="bg-white text-amber-600 hover:bg-gray-100 font-bold text-lg px-8 py-4 rounded-lg"
+              className="bg-white text-amber-900 hover:bg-gray-100 font-bold text-lg px-8 py-4 rounded-lg"
             >
               CONTACT US
             </Button>
