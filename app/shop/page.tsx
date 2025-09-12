@@ -25,11 +25,8 @@ export default function ShopPage() {
             </Badge>
             <h1 className="text-6xl md:text-8xl font-black text-white mb-8 leading-tight tracking-tight">
               OUR DROP
-              <span className="block text-amber-400">IDENTITY</span>
+              <span className="block text-white">IDENTITY</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed">
-              DRESSED TO SERVE, INSPIRED TO GIVE
-            </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
               <Button size="lg" className="bg-amber-600 text-white hover:bg-amber-700 font-bold text-lg px-8 py-4">
@@ -222,7 +219,7 @@ export default function ShopPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-amber-600 text-white">
+      <section className="py-20 bg-amber-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-6xl font-black mb-8">
             JOIN THE
