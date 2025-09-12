@@ -17,7 +17,7 @@ export default function HomePage() {
 
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <div className="mb-25">
-            <Image src="/images/asem-logo.png" alt="ASEM Logo" width={130} height={130} className="mx-auto mb-6" />
+            <Image src="images/asem-logo.png" alt="ASEM Logo" width={130} height={130} className="mx-auto mb-6" />
           </div>
           <Badge className="mb-6 bg-amber-600/80 text-white border-amber-500/50 hover:bg-amber-600">
             15 Years of Impact
