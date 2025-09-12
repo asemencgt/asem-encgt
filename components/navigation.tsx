@@ -14,7 +14,7 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center tracking-normal justify-stretch px-0 space-x-0 flex-row">
-            <Image src="images/asem-logo.png" alt="ASEM Logo" width={60} height={60} className="w-10 h-10" />
+            <Image src="images/asem-logo.png" alt="ASEM Logo" width={70} height={70} className="w-10 h-10" />
             <span className="text-xl font-bold text-amber-900">ASEM</span>
           </Link>
 
