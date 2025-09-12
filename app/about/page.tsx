@@ -221,25 +221,6 @@ export default function AboutPage() {
               <p className="text-xl leading-relaxed mb-6">
                 Assistance et Soutien aux Enfants Malades is a humanitarian club founded in 2010 at ENCGT. It provides moral and material support to sick children from disadvantaged backgrounds and their families, promoting their social integration and strengthening the fight against serious illnesses through sensitization and medical assistance. In 2023, after 13 years of commitment and dedication within ENCGT, ASEM club evolved to give rise to a foundation - Assistance and Support for Moroccan Children, a non-profit association created by the school's students. Although now an independent organization, the Foundation maintains a close link with ENCGT and continues to uphold the ASEM club within its structure. The ASEM Foundation is committed to supporting Moroccan children, transforming their needs into concrete humanitarian actions filled with hope. By expanding its scope of action, the Foundation has also encouraged the creation of ASEM club affiliations in other schools, allowing its humanitarian spirit to spread across the country.
               </p>
-
-              <p className="leading-relaxed mb-6">
-                Our founders recognized that traditional humanitarian approaches often overlooked the energy,
-                creativity, and fresh perspectives that young people bring to solving complex social problems. They
-                envisioned a club that would harness this potential and create meaningful opportunities for
-                youth to make a difference.
-              </p>
-
-              <p className="leading-relaxed mb-6">
-                Over the past 15 years, we've evolved from a small student group to a recognized 
-                humanitarian organization. We've learned that lasting change comes from empowering local communities,
-                building sustainable partnerships, and approaching challenges with both passion and professionalism.
-              </p>
-
-              <p className="leading-relaxed">
-                Today, ASEM continues to grow and adapt, always staying true to our core mission of empowering young
-                people to create positive change. Every project we undertake, every partnership we form, and every life
-                we touch, is a step toward our vision.
-              </p>
             </div>
           </div>
         </div>
