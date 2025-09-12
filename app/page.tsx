@@ -83,16 +83,18 @@ export default function HomePage() {
   </div>
 </section>
 
-      {/* Full Video Section */}
-<section className="w-full h-screen bg-black">
-  <video
-    className="w-full h-full object-contain"
-    controls
-  >
-    <source src="videos/doc VH web.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</section>
+      {/* Full Video Section with Corrected Aspect Ratio */}
+        <section className="bg-black py-12">
+          <div className="aspect-video w-full max-w-7xl mx-auto px-4">
+            <video
+              className="w-full h-full rounded-lg shadow-lg"
+              controls
+            >
+              <source src="/videos/doc VH web.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
 
       {/* Mission, Vision, Goals with Team Photo */}
       <section className="py-20 bg-white">
