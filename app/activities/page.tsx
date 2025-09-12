@@ -26,7 +26,7 @@ export default function ActivitiesPage() {
             <div className="space-y-6">
               <div className="flex items-center gap-4 mb-6">
                 <Image
-                  src="/images/voyage-humanitaire-logo.jpg"
+                  src="images/voyage-humanitaire-logo.jpg"
                   alt="Voyage Humanitaire Logo"
                   width={60}
                   height={60}
@@ -69,14 +69,14 @@ export default function ActivitiesPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <Image
-                  src="/images/voyage-humanitaire-group.jpg"
+                  src="images/voyage-humanitaire-group.jpg"
                   alt="Volunteer Group"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <Image
-                  src="/images/voyage-humanitaire-wall-art.jpg"
+                  src="images/voyage-humanitaire-wall-art.jpg"
                   alt="Community Wall Art"
                   width={300}
                   height={200}
@@ -85,14 +85,14 @@ export default function ActivitiesPage() {
               </div>
               <div className="space-y-4 mt-8">
                 <Image
-                  src="/images/voyage-humanitaire-painting.jpg"
+                  src="images/voyage-humanitaire-painting.jpg"
                   alt="Community Painting"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <Image
-                  src="/images/voyage-humanitaire-planting.jpg"
+                  src="images/voyage-humanitaire-planting.jpg"
                   alt="Tree Planting"
                   width={300}
                   height={200}
@@ -110,7 +110,7 @@ export default function ActivitiesPage() {
     className="w-full h-full object-cover"
     controls
   >
-    <source src="/videos/doc VH web.mp4" type="video/mp4" />
+    <source src="videos/doc VH web.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </section>
@@ -122,14 +122,14 @@ export default function ActivitiesPage() {
             <div className="grid grid-cols-2 gap-4 lg:order-1">
               <div className="space-y-4">
                 <Image
-                  src="/images/laylat-lkhayr-facepainting.jpg"
+                  src="images/laylat-lkhayr-facepainting.jpg"
                   alt="Face Painting Activity"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <Image
-                  src="/images/bayt-assilah-volunteer.jpg"
+                  src="images/bayt-assilah-volunteer.jpg"
                   alt="Volunteer Support"
                   width={300}
                   height={200}
@@ -138,14 +138,14 @@ export default function ActivitiesPage() {
               </div>
               <div className="space-y-4 mt-8">
                 <Image
-                  src="/images/bayt assilah belazar.jpg"
+                  src="images/bayt assilah belazar.jpg"
                   alt="Bayt Assilah Logo"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <Image
-                  src="/images/bayt assilah marouane.jpg"
+                  src="images/bayt assilah marouane.jpg"
                   alt="Bayt Assilah Logo"
                   width={300}
                   height={200}
@@ -156,7 +156,7 @@ export default function ActivitiesPage() {
 
             <div className="space-y-6 lg:order-2">
               <div className="flex items-center gap-4 mb-6">
-                <Image src="/images/bayt-assilah-logo.png" alt="TFE Logo" width={120} height={60} className="object-contain" />
+                <Image src="images/bayt-assilah-logo.png" alt="TFE Logo" width={120} height={60} className="object-contain" />
                 <div>
                   <Badge className="bg-amber-100 text-amber-800 mb-2">Assistance</Badge>
                   <h2 className="text-4xl font-bold text-amber-900">Bayt Assilah</h2>
@@ -195,7 +195,7 @@ export default function ActivitiesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="flex items-center gap-4 mb-6">
-                <Image src="/images/laylat-lkhayr-logo.png" alt="Laylat Lkhayr Logo" width={90} height={90} />
+                <Image src="images/laylat-lkhayr-logo.png" alt="Laylat Lkhayr Logo" width={90} height={90} />
                 <div>
                   <Badge className="bg-amber-100 text-amber-800 mb-2">Traditional Charity Night</Badge>
                   <h2 className="text-4xl font-bold text-amber-900">Laylat Lkhayr</h2>
@@ -232,14 +232,14 @@ export default function ActivitiesPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <Image
-                  src="/images/laylat-lkhayr-ceremony.jpg"
+                  src="images/laylat-lkhayr-ceremony.jpg"
                   alt="Traditional Ceremony"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <Image
-                  src="/images/laylat-lkhayr-interaction.jpg"
+                  src="images/laylat-lkhayr-interaction.jpg"
                   alt="Community Interaction"
                   width={300}
                   height={200}
@@ -248,14 +248,14 @@ export default function ActivitiesPage() {
               </div>
               <div className="space-y-4 mt-8">
                 <Image
-                  src="/images/laylat-lkhayr-dinner.jpg"
+                  src="images/laylat-lkhayr-dinner.jpg"
                   alt="Community Dinner"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <Image
-                  src="/images/Laylat lkhayr happy gift.jpg"
+                  src="images/Laylat lkhayr happy gift.jpg"
                   alt="Joyful Celebration"
                   width={300}
                   height={200}
@@ -273,7 +273,7 @@ export default function ActivitiesPage() {
     className="w-full h-full object-cover"
     controls
   >
-    <source src="/videos/laylat lkhir doc.mp4" type="video/mp4" />
+    <source src="videos/laylat lkhir doc.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </section>
@@ -285,14 +285,14 @@ export default function ActivitiesPage() {
             <div className="grid grid-cols-2 gap-4 lg:order-1">
               <div className="space-y-4">
                 <Image
-                  src="/images/tfe-team-photo.jpg"
+                  src="images/tfe-team-photo.jpg"
                   alt="Football Team"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <Image
-                  src="/images/tfe-action.jpg"
+                  src="images/tfe-action.jpg"
                   alt="Football Action"
                   width={300}
                   height={200}
@@ -301,14 +301,14 @@ export default function ActivitiesPage() {
               </div>
               <div className="space-y-4 mt-8">
                 <Image
-                  src="/images/tfe-awards.jpg"
+                  src="images/tfe-awards.jpg"
                   alt="Award Ceremony"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <Image
-                  src="/images/tfe-group-final.jpg"
+                  src="images/tfe-group-final.jpg"
                   alt="Tournament Group Photo"
                   width={300}
                   height={200}
@@ -319,7 +319,7 @@ export default function ActivitiesPage() {
 
             <div className="space-y-6 lg:order-2">
               <div className="flex items-center gap-4 mb-6">
-                <Image src="/images/tfe-logo.png" alt="TFE Logo" width={70} height={35} className="object-contain" />
+                <Image src="images/tfe-logo.png" alt="TFE Logo" width={70} height={35} className="object-contain" />
                 <div>
                   <Badge className="bg-amber-100 text-amber-900 mb-2">Sports & Recreation</Badge>
                   <h2 className="text-4xl font-bold text-amber-900">Tournoi de Foot des Enfants</h2>
