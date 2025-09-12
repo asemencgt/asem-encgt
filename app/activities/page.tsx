@@ -33,7 +33,7 @@ export default function ActivitiesPage() {
                   className="rounded-lg"
                 />
                 <div>
-                  <Badge className="bg-amber-100 text-amber-900 mb-2">Humanitarian Mission</Badge>
+                  <Badge className="bg-amber-50 text-amber-900 mb-2">Humanitarian Mission</Badge>
                   <h2 className="text-4xl font-bold text-amber-900">Voyage Humanitaire</h2>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function ActivitiesPage() {
               <div className="flex items-center gap-4 mb-6">
                 <Image src="images/bayt-assilah-logo.png" alt="TFE Logo" width={120} height={60} className="object-contain" />
                 <div>
-                  <Badge className="bg-amber-100 text-amber-800 mb-2">Assistance</Badge>
+                  <Badge className="bg-amber-50 text-amber-800 mb-2">Assistance</Badge>
                   <h2 className="text-4xl font-bold text-amber-900">Bayt Assilah</h2>
                 </div>
               </div>
@@ -197,7 +197,7 @@ export default function ActivitiesPage() {
               <div className="flex items-center gap-4 mb-6">
                 <Image src="images/laylat-lkhayr-logo.png" alt="Laylat Lkhayr Logo" width={90} height={90} />
                 <div>
-                  <Badge className="bg-amber-100 text-amber-800 mb-2">Traditional Charity Night</Badge>
+                  <Badge className="bg-amber-50 text-amber-800 mb-2">Traditional Charity Night</Badge>
                   <h2 className="text-4xl font-bold text-amber-900">Laylat Lkhayr</h2>
                 </div>
               </div>
@@ -321,7 +321,7 @@ export default function ActivitiesPage() {
               <div className="flex items-center gap-4 mb-6">
                 <Image src="images/tfe-logo.png" alt="TFE Logo" width={70} height={35} className="object-contain" />
                 <div>
-                  <Badge className="bg-amber-100 text-amber-900 mb-2">Sports & Recreation</Badge>
+                  <Badge className="bg-amber-50 text-amber-900 mb-2">Sports & Recreation</Badge>
                   <h2 className="text-4xl font-bold text-amber-900">Tournoi de Foot des Enfants</h2>
                 </div>
               </div>
@@ -370,7 +370,7 @@ export default function ActivitiesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="text-center p-8 hover:shadow-lg transition-shadow border-t-4 border-t-amber-900">
               <CardContent className="p-0">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-100">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-50">
                   <Heart className="h-8 w-8 text-amber-900" />
                 </div>
                 <h3 className="text-3xl font-bold mb-2 text-amber-900">550+</h3>
@@ -380,7 +380,7 @@ export default function ActivitiesPage() {
 
             <Card className="text-center p-8 hover:shadow-lg transition-shadow border-t-4 border-t-amber-900">
               <CardContent className="p-0">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-100">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-50">
                   <Users className="h-8 w-8 text-amber-900" />
                 </div>
                 <h3 className="text-3xl font-bold mb-2 text-amber-900">100+</h3>
@@ -390,7 +390,7 @@ export default function ActivitiesPage() {
 
             <Card className="text-center p-8 hover:shadow-lg transition-shadow border-t-4 border-t-amber-900">
               <CardContent className="p-0">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-100">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-50">
                   <Globe className="h-8 w-8 text-amber-900" />
                 </div>
                 <h3 className="text-3xl font-bold mb-2 text-amber-900">5</h3>
@@ -400,7 +400,7 @@ export default function ActivitiesPage() {
 
             <Card className="text-center p-8 hover:shadow-lg transition-shadow border-t-4 border-t-amber-900">
               <CardContent className="p-0">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-100">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-50">
                   <Target className="h-8 w-8 text-amber-900" />
                 </div>
                 <h3 className="text-3xl font-bold mb-2 text-amber-900">15</h3>
