@@ -13,7 +13,7 @@ export default function JoinPage() {
       {/* Hero Section with Join the Fam Photo */}
       <section className="relative py-20 text-white overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/join-the-fam.jpg" alt="Join the ASEM Family" fill className="object-cover" />
+          <Image src="images/join-the-fam.jpg" alt="Join the ASEM Family" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-amber-900/80 to-orange-900/80"></div>
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center">
@@ -43,7 +43,7 @@ export default function JoinPage() {
             </div>
             <div className="md:w-1/2">
               <Image
-                src="/images/join-the-fam.jpg"
+                src="images/join-the-fam.jpg"
                 alt="Make the Right Decision and Join the Fam"
                 width={480}
                 height={320}
