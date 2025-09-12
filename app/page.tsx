@@ -9,17 +9,13 @@ import Image from "next/image"
 const Preloader = () => {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-white transition-opacity duration-500">
-      {/* The logo to be displayed */}
       <img
-        src="images/asem-logo.png"
+        src="/images/asem-logo.png"
         alt="ASEM Logo"
         width={130}
         height={130}
         className="animate-pulse"
       />
-      {/* This is a simple animation that makes the logo gently grow and shrink.
-        You can find and use any Tailwind-compatible animation.
-      */}
       <style jsx>{`
         @keyframes pulse {
           0%, 100% {
