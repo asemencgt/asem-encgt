@@ -94,7 +94,7 @@ export default function AboutPage() {
           {/* Leadership Poster */}
           <div className="mb-12 text-center">
             <Image
-              src="/images/leadership-poster.jpg"
+              src="images/leadership-poster.jpg"
               alt="ASEM Leadership Team 2024-2025"
               width={800}
               height={600}
