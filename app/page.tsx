@@ -102,8 +102,8 @@ export default function HomePage() {
               <Image
                 src="images/leadership-poster.jpg"
                 alt="ASEM Leadership Team 2024-2025"
-                width={510}
-                height={340}
+                width={540}
+                height={360}
                 className="rounded-lg shadow-xl"
               />
             </div>
