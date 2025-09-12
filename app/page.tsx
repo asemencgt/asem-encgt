@@ -11,7 +11,7 @@ export default function HomePage() {
       {/* Hero Section with Sunset Photo */}
       <section className="relative h-screen flex items-center justify-center text-white overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/asem-sunset-coast.jpg" alt="ASEM Team at Sunset" fill className="object-cover" priority />
+          <Image src="images/asem-sunset-coast.jpg" alt="ASEM Team at Sunset" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/50 to-black/50"></div>
         </div>
 
