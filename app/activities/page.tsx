@@ -104,16 +104,18 @@ export default function ActivitiesPage() {
         </div>
       </section>
 
-      {/* Full Video Section */}
-<section className="w-full h-screen bg-black">
-  <video
-    className="w-full h-full object-cover"
-    controls
-  >
-    <source src="videos/doc VH web.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</section>
+      {/* Full Video Section with Corrected Aspect Ratio */}
+        <section className="bg-white py-0 sm:py-12 flex justify-center items-center">
+          <div className="relative w-full max-w-7xl mx-auto aspect-video">
+            <video
+              className="absolute inset-0 w-full h-full rounded-lg shadow-lg object-cover"
+              controls
+            >
+              <source src="videos/doc VH web.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
 
       {/* Bayt Assilah Section */}
       <section className="py-20 bg-amber-50">
