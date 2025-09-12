@@ -25,10 +25,9 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-amber-900" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Headquarters</h3>
+                    <h3 className="font-semibold text-lg mb-1">Adress</h3>
                     <p className="text-gray-900">
-                      (?)<br />
-                      (?)<br />
+                      ENCGT, Airport Road, P.O. 1255<br />
                       Tangier, Morocco
                     </p>
                   </div>
@@ -42,8 +41,7 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-lg mb-1">Email</h3>
                     <p className="text-gray-600">
                       General: asemencgt10@gmail.com<br />
-                      Partnerships: partnerships<br />
-                      Media: Cellule Communication, Media et IT
+                      Media: Cellule Communication, Media and IT
                     </p>
                   </div>
                 </div>
@@ -57,7 +55,6 @@ export default function ContactPage() {
                     <p className="text-gray-600">
                       Main: +212 601-600980<br />
                       Emergency: +212 770-353602<br />
-                      Toll-free: (TFL)
                     </p>
                   </div>
                 </div>
