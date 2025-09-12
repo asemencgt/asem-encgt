@@ -59,7 +59,7 @@ export default function HomePage() {
       {/* Two-Photo Stacked Layout */}
       <div className="flex flex-col items-center relative ml-4 md:ml-8 lg:ml-12">
         {/* Top photo (moved to the opposite side, smaller size) */}
-        <div className="relative w-full max-w-sm ml-20 md:ml-28 lg:ml-36 mb-6">
+        <div className="relative w-full max-w-sm mb-6">
           <Image
             src="images/asem our community drari.JPG"
             alt="ASEM kids community photo"
@@ -69,7 +69,7 @@ export default function HomePage() {
           />
         </div>
         {/* Bottom photo (slightly right, smaller size) */}
-        <div className="relative w-full max-w-sm -ml-12 md:-ml-16 lg:-ml-20">
+        <div className="relative w-full max-w-sm">
           <Image
             src="images/asem-celebration.jpg"
             alt="ASEM Community Celebration photo"
