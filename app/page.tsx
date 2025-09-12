@@ -86,7 +86,7 @@ export default function HomePage() {
       {/* Full Video Section */}
 <section className="w-full h-screen bg-black">
   <video
-    className="w-full h-full object-cover"
+    className="w-full h-full object-contain"
     controls
   >
     <source src="videos/doc VH web.mp4" type="video/mp4" />
