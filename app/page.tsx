@@ -61,7 +61,7 @@ export default function HomePage() {
         {/* Top photo (moved to the opposite side, smaller size) */}
         <div className="relative w-full max-w-sm ml-20 md:ml-28 lg:ml-36 mb-6">
           <Image
-            src="/images/asem our community drari.JPG"
+            src="images/asem our community drari.JPG"
             alt="ASEM kids community photo"
             width={500}
             height={320}
@@ -71,7 +71,7 @@ export default function HomePage() {
         {/* Bottom photo (slightly right, smaller size) */}
         <div className="relative w-full max-w-sm -ml-12 md:-ml-16 lg:-ml-20">
           <Image
-            src="/images/asem-celebration.jpg"
+            src="images/asem-celebration.jpg"
             alt="ASEM Community Celebration photo"
             width={500}
             height={320}
@@ -89,7 +89,7 @@ export default function HomePage() {
     className="w-full h-full object-cover"
     controls
   >
-    <source src="/videos/doc VH web.mp4" type="video/mp4" />
+    <source src="videos/doc VH web.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </section>
@@ -100,7 +100,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
             <div className="relative">
               <Image
-                src="/images/leadership-poster.jpg"
+                src="images/leadership-poster.jpg"
                 alt="ASEM Leadership Team 2024-2025"
                 width={510}
                 height={340}
@@ -131,7 +131,7 @@ export default function HomePage() {
               <Card className="p-6 hover:shadow-lg transition-shadow border-t-4 border-t-amber-900">
                 <CardContent className="p-0 text-center">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-900">
-                    <Image src="/images/laylat-lkhayr-logo.png" alt="Laylat Lkhayr" width={48} height={48} />
+                    <Image src="images/laylat-lkhayr-logo.png" alt="Laylat Lkhayr" width={48} height={48} />
                   </div>
                   <h3 className="text-lg font-bold mb-2 text-amber-900 font-sans">Laylat Lkhayr</h3>
                   <p className="text-sm text-gray-700 font-sans">Traditional charity night bringing joy to children on the 27th night of Ramadan.</p>
@@ -141,7 +141,7 @@ export default function HomePage() {
               <Card className="p-6 hover:shadow-lg transition-shadow border-t-4 border-t-amber-900">
                 <CardContent className="p-0 text-center">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-50">
-                    <Image src="/images/voyage-humanitaire-logo.jpg" alt="Bayt Assilah" width={40} height={40} />
+                    <Image src="images/voyage-humanitaire-logo.jpg" alt="Bayt Assilah" width={40} height={40} />
                   </div>
                   <h3 className="text-lg font-bold mb-2 text-amber-900 font-sans">Voyage Humanitaire</h3>
                   <p className="text-sm text-gray-700 font-sans">Humanitarian trips to remote communities</p>
@@ -151,7 +151,7 @@ export default function HomePage() {
               <Card className="p-6 hover:shadow-lg transition-shadow border-t-4 border-t-amber-900">
                 <CardContent className="p-0 text-center">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-900">
-                    <Image src="/images/bayt-assilah-logo.png" alt="Bayt Assilah" width={55} height={55} />
+                    <Image src="images/bayt-assilah-logo.png" alt="Bayt Assilah" width={55} height={55} />
                   </div>
                   <h3 className="text-lg font-bold mb-2 text-amber-900 font-sans">Bayt Assilah</h3>
                   <p className="text-sm text-gray-700 font-sans">Supporting children with special needs in Assilah</p>
@@ -161,7 +161,7 @@ export default function HomePage() {
               <Card className="p-6 hover:shadow-lg transition-shadow border-t-4 border-t-amber-900">
                 <CardContent className="p-0 text-center">
                   <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-amber-50">
-                    <Image src="/images/tfe-logo.png" alt="Bayt Assilah" width={37} height={37} />
+                    <Image src="images/tfe-logo.png" alt="Bayt Assilah" width={37} height={37} />
                   </div>
                   <h3 className="text-lg font-bold mb-2 text-amber-900 font-sans">Tournoi de Foot</h3>
                   <p className="text-sm text-gray-700 font-sans">
