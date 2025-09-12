@@ -10,37 +10,37 @@ export default function AboutPage() {
     {
       name: "Marouane Elaouli",
       role: "Président",
-      image: "/images/marouane-elaouli.jpg",
+      image: "images/marouane-elaouli.jpg",
       bio: "Leading ASEM with passion and dedication",
     },
     {
       name: "Hiba Belazar",
       role: "Vice Président",
-      image: "/images/hiba-belazar.jpg",
+      image: "images/hiba-belazar.jpg",
       bio: "Supporting our mission with innovative ideas",
     },
     {
       name: "Hajar El Amri",
       role: "Trésorière",
-      image: "/images/hajar-elamri.jpg",
+      image: "images/hajar-elamri.jpg",
       bio: "Managing our resources with transparency",
     },
     {
       name: "Chorouk Saiyd",
       role: "Secrétaire Générale",
-      image: "/images/chorouk-saiyd.jpg",
+      image: "images/chorouk-saiyd.jpg",
       bio: "Organizing our activities with precision",
     },
     {
       name: "Chaimae Barki",
       role: "Respo. Communication",
-      image: "/images/chaimae-barki.jpg",
+      image: "images/chaimae-barki.jpg",
       bio: "Spreading our message across all platforms",
     },
     {
       name: "Yasmine Ez-Zhar",
       role: "Conseillère",
-      image: "/images/yasmine-ezzhar.jpg",
+      image: "images/yasmine-ezzhar.jpg",
       bio: "Providing guidance and strategic direction",
     },
   ]
@@ -70,7 +70,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative py-20 text-white overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/asem-sunset-coast.jpg" alt="ASEM Team" fill className="object-cover" />
+          <Image src="images/asem-sunset-coast.jpg" alt="ASEM Team" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-amber-900/80 to-orange-900/80"></div>
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center">
@@ -133,7 +133,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <Image
-                src="/images/asem-celebration.jpg"
+                src="images/asem-celebration.jpg"
                 alt="ASEM Community Celebration"
                 width={600}
                 height={400}
