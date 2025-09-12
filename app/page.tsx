@@ -84,7 +84,7 @@ export default function HomePage() {
 </section>
 
       {/* Full Video Section with Corrected Aspect Ratio */}
-        <section className="bg-black py-0 sm:py-12 flex justify-center items-center">
+        <section className="bg-white py-0 sm:py-12 flex justify-center items-center">
           <div className="relative w-full max-w-7xl mx-auto aspect-video">
             <video
               className="absolute inset-0 w-full h-full rounded-lg shadow-lg object-cover"
