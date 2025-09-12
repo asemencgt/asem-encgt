@@ -158,7 +158,7 @@ export default function ActivitiesPage() {
               <div className="flex items-center gap-4 mb-6">
                 <Image src="images/bayt-assilah-logo.png" alt="TFE Logo" width={120} height={60} className="object-contain" />
                 <div>
-                  <Badge className="bg-amber-50 text-amber-800 mb-2">Assistance</Badge>
+                  <Badge className="bg-white text-amber-800 mb-2">Assistance</Badge>
                   <h2 className="text-4xl font-bold text-amber-900">Bayt Assilah</h2>
                 </div>
               </div>
@@ -321,7 +321,7 @@ export default function ActivitiesPage() {
               <div className="flex items-center gap-4 mb-6">
                 <Image src="images/tfe-logo.png" alt="TFE Logo" width={70} height={35} className="object-contain" />
                 <div>
-                  <Badge className="bg-amber-50 text-amber-900 mb-2">Sports & Recreation</Badge>
+                  <Badge className="bg-white text-amber-900 mb-2">Sports & Recreation</Badge>
                   <h2 className="text-4xl font-bold text-amber-900">Tournoi de Foot des Enfants</h2>
                 </div>
               </div>
