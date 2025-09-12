@@ -10,7 +10,7 @@ export default function ShopPage() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
         <div className="absolute inset-0">
           <Image
-            src="/images/shop-hero-group.jpg"
+            src="images/shop-hero-group.jpg"
             alt="ASEM EL FENOMENO Collection"
             fill
             className="object-cover opacity-60"
@@ -63,7 +63,7 @@ export default function ShopPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-amber-600 text-white">
+      <section className="py-20 bg-amber-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-6xl font-black mb-8">DRESSED TO SERVE</h2>
           <h3 className="text-3xl md:text-5xl font-bold text-amber-100 mb-8">INSPIRED TO GIVE</h3>
@@ -80,7 +80,7 @@ export default function ShopPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
             <div className="relative group overflow-hidden rounded-2xl">
               <Image
-                src="/images/shop-zaki-hoodie.jpg"
+                src="images/shop-zaki-hoodie.jpg"
                 alt="EL FENOMENO Hoodie"
                 width={600}
                 height={800}
@@ -118,7 +118,7 @@ export default function ShopPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
             <div className="lg:col-span-2 relative group overflow-hidden rounded-2xl">
               <Image
-                src="/images/shop-street-display.jpg"
+                src="images/shop-street-display.jpg"
                 alt="Street Style Collection"
                 width={800}
                 height={600}
@@ -134,7 +134,7 @@ export default function ShopPage() {
 
             <div className="relative group overflow-hidden rounded-2xl">
               <Image
-                src="/images/shop-brazil-lifestyle.jpg"
+                src="images/shop-brazil-lifestyle.jpg"
                 alt="Lifestyle Collection"
                 width={400}
                 height={600}
@@ -158,14 +158,14 @@ export default function ShopPage() {
                 controls
                 className="w-full h-[600px] object-cover rounded-2xl"
               >
-                <source src="/videos/Nizar doc.mp4" type="video/mp4" />
+                <source src="videos/Nizar doc.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
 
             <div className="relative group overflow-hidden rounded-2xl">
               <Image
-                src="/images/shop-moto-statement.jpg"
+                src="images/shop-moto-statement.jpg"
                 alt="Statement Collection"
                 width={600}
                 height={600}
