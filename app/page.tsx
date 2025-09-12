@@ -11,7 +11,7 @@ const Preloader = () => {
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-white transition-opacity duration-500">
       {/* The logo to be displayed */}
       <img
-        src="/images/asem-logo.png"
+        src="images/asem-logo.png"
         alt="ASEM Logo"
         width={130}
         height={130}
