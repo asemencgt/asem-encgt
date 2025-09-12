@@ -287,7 +287,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white hover:bg-white/10 text-amber-600 bg-transparent"
+                className="border-white hover:bg-white/10 text-white bg-transparent"
               >
                 Visit Our Shop
               </Button>
