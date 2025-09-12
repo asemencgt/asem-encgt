@@ -5,6 +5,40 @@ import { Heart, Users, Globe, Award, ArrowRight, MapPin, Mail, Phone, Target, Ey
 import Link from "next/link"
 import Image from "next/image"
 
+// Preloader component to be rendered while the main content loads
+const Preloader = () => {
+  return (
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-white transition-opacity duration-500">
+      {/* The logo to be displayed */}
+      <img
+        src="/images/asem-logo.png"
+        alt="ASEM Logo"
+        width={130}
+        height={130}
+        className="animate-pulse"
+      />
+      {/* This is a simple animation that makes the logo gently grow and shrink.
+        You can find and use any Tailwind-compatible animation.
+      */}
+      <style jsx>{`
+        @keyframes pulse {
+          0%, 100% {
+            transform: scale(1);
+            opacity: 1;
+          }
+          50% {
+            transform: scale(1.05);
+            opacity: 0.8;
+          }
+        }
+        .animate-pulse {
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+      `}</style>
+    </div>
+  );
+};
+
 export default function HomePage() {
   return (
     <div className="min-h-screen">
