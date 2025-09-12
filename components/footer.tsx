@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <Image
-                src="/images/asem-logo.png"
+                src="images/asem-logo.png"
                 alt="ASEM Logo"
                 width={40}
                 height={40}
@@ -19,7 +19,7 @@ export function Footer() {
               <span className="text-xl font-bold">ASEM</span>
             </div>
             <p className="text-amber-200 mb-4">
-              Empowering communities through youth-driven humanitarian initiatives for over 15 years.
+              ASEM, la joie qu'on sème ✨
             </p>
             <div className="flex space-x-4">
               <Facebook className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
@@ -52,9 +52,9 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-amber-200">
-              <li>ASEM Headquarters</li>
+              <li>ASEM ENCGT</li>
               <li>Tangier, Morocco</li>
-              <li>Adresse boulevard</li>
+              <li>Airport Road, P.O. 1255</li>
               <li>+212 770-353602</li>
               <li>asemencgt10@gmail.com</li>
             </ul>
