@@ -8,6 +8,10 @@ import { Checkbox } from "@/components/ui/checkbox"
 import Image from "next/image"
 
 export default function JoinPage() {
+  const handleRedirect = () => {
+    // You MUST replace this placeholder URL with your actual Google Forms link.
+    window.open("https://forms.gle/2sAoBc8y5wnx4foq5", "_blank");
+  };
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section with Join the Fam Photo */}
@@ -53,99 +57,45 @@ export default function JoinPage() {
           </div>
         </div>
       </section>
-
-      {/* Benefits Section */}
-
+      
       {/* Application Form */}
-      <section className="py-20 bg-amber-50">
+      <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center py-20">
+      {/* Hero Section */}
+      <section className="text-center mb-16 px-4">
+        <h1 className="text-5xl md:text-6xl font-bold text-amber-900 mb-4 font-sans">
+          Join Our Mission
+        </h1>
+        <p className="text-xl text-gray-700 max-w-3xl mx-auto font-sans">
+          Be a part of a passionate community dedicated to humanitarian work and
+          making a positive change. We're excited to welcome new members who
+          share our values.
+        </p>
+      </section>
+
+      {/* Application Form Section with Button */}
+      <section className="py-20 bg-amber-50 w-full">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
-            <Card>
+            <Card className="rounded-xl shadow-lg">
               <CardHeader>
-                <CardTitle className="text-2xl text-center text-amber-900">New Member Application</CardTitle>
+                <CardTitle className="text-2xl text-center text-amber-900">
+                  New Member Application
+                </CardTitle>
                 <p className="text-center text-gray-600">
-                  Fill out the form below to start your beautiful journey with ASEM
+                  Click the button below to start your journey with ASEM by
+                  filling out our official application form.
                 </p>
               </CardHeader>
               <CardContent>
-                <form className="space-y-6">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                      <Label htmlFor="firstName">First Name *</Label>
-                      <Input id="firstName" required />
-                    </div>
-                    <div>
-                      <Label htmlFor="lastName">Last Name *</Label>
-                      <Input id="lastName" required />
-                    </div>
-                  </div>
-
-                  <div>
-                    <Label htmlFor="email">Email Address *</Label>
-                    <Input id="email" type="email" required />
-                  </div>
-
-                  <div>
-                    <Label htmlFor="phone">Phone Number *</Label>
-                    <Input id="phone" type="tel" />
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                      <Label htmlFor="studyYear">Study year *</Label>
-                      <Select>
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select study year" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="1st-year">1st year</SelectItem>
-                          <SelectItem value="2nd-year">2nd year</SelectItem>
-                          <SelectItem value="3rd-year">3rd year</SelectItem>
-                          <SelectItem value="3rd-year">4th year</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-                  </div>
-
-                  <div>
-                    <Label htmlFor="experience">Previous Volunteer Experience</Label>
-                    <Textarea
-                      id="experience"
-                      placeholder="Tell us about any previous volunteer or humanitarian experience..."
-                      rows={4}
-                    />
-                  </div>
-
-                  <div>
-                    <Label htmlFor="motivation">Why do you want to join ASEM? *</Label>
-                    <Textarea
-                      id="motivation"
-                      placeholder="Share your motivation for joining our mission..."
-                      rows={4}
-                      required
-                    />
-                  </div>
-
-                  <div className="space-y-4">
-                    <div className="flex items-center space-x-2">
-                      <Checkbox id="newsletter" />
-                      <Label htmlFor="newsletter" className="text-sm">
-                        I want to receive ASEM newsletters and updates
-                      </Label>
-                    </div>
-
-                    <div className="flex items-center space-x-2">
-                      <Checkbox id="terms" required />
-                      <Label htmlFor="terms" className="text-sm">
-                        I agree to the Terms of Service and Privacy Policy *
-                      </Label>
-                    </div>
-                  </div>
-
-                  <Button type="submit" className="w-full bg-amber-600 hover:bg-amber-700" size="lg">
-                    Submit Application
+                <div className="flex justify-center">
+                  <Button
+                    onClick={handleRedirect}
+                    className="w-full sm:w-auto bg-amber-600 hover:bg-amber-700"
+                    size="lg"
+                  >
+                    Go to Application Form
                   </Button>
-                </form>
+                </div>
               </CardContent>
             </Card>
           </div>
