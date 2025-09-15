@@ -26,13 +26,17 @@ export default function HomePage() {
           <p className="text-xl md:text-2xl mb-4 text-white drop-shadow-md font-sans">ASEM, La joie qu'on sème ✨</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-amber-600 text-white hover:bg-amber-700">
-              Join Our Mission
-              <ArrowRight className="h-5 w-5 ml-0" />
-            </Button>
-            <Button size="lg" variant="outline" className="text-white hover:bg-white/10 bg-amber-600 border-amber-600">
+            <Link href="/join">
+              <Button size="lg" className="bg-amber-600 text-white hover:bg-amber-700">
+                Join Our Mission
+                <ArrowRight className="h-5 w-5 ml-0" />
+              </Button>
+            </Link>
+            <Link href="/shop">
+              <Button size="lg" variant="outline" className="text-white hover:bg-white/10 bg-amber-600 border-amber-600">
               {"Shop"}
-            </Button>
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
