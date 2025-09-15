@@ -58,20 +58,6 @@ export default function JoinPage() {
         </div>
       </section>
       
-      {/* Application Form */}
-      <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center py-20">
-      {/* Hero Section */}
-      <section className="text-center mb-16 px-4">
-        <h1 className="text-5xl md:text-6xl font-bold text-amber-900 mb-4 font-sans">
-          Join Our Mission
-        </h1>
-        <p className="text-xl text-gray-700 max-w-3xl mx-auto font-sans">
-          Be a part of a passionate community dedicated to humanitarian work and
-          making a positive change. We're excited to welcome new members who
-          share our values.
-        </p>
-      </section>
-
       {/* Application Form Section with Button */}
       <section className="py-20 bg-amber-50 w-full">
         <div className="container mx-auto px-4">
