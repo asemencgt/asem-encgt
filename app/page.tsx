@@ -5,6 +5,19 @@ import { Heart, Users, Globe, Award, ArrowRight, MapPin, Mail, Phone, Target, Ey
 import Link from "next/link"
 import Image from "next/image"
 
+// Data for sponsors (you can fill in your image paths)
+const emptySponsors = [
+  { id: 1, name: "Sponsor 1", src: "/images/sponsors/sponsor-1.png" },
+  { id: 2, name: "Sponsor 2", src: "/images/sponsors/sponsor-2.png" },
+  { id: 3, name: "Sponsor 3", src: "/images/sponsors/sponsor-3.png" },
+  { id: 4, name: "Sponsor 4", src: "/images/sponsors/sponsor-4.png" },
+  { id: 5, name: "Sponsor 5", src: "/images/sponsors/sponsor-5.png" },
+  { id: 6, name: "Sponsor 6", src: "/images/sponsors/sponsor-6.png" },
+];
+
+// Duplicate the list to create a seamless infinite loop
+const allSponsors = [...emptySponsors, ...emptySponsors];
+
 export default function HomePage() {
   return (
     <div className="min-h-screen">
@@ -176,6 +189,32 @@ export default function HomePage() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sponsors Section (Added Directly) */}
+      <section className="py-20 bg-white overflow-hidden" aria-labelledby="sponsors-heading">
+        <div className="container mx-auto px-4">
+          <h2 id="sponsors-heading" className="text-4xl font-bold text-center mb-12 text-amber-900">
+            Nos Partenaires
+          </h2>
+        </div>
+
+        <div className="relative w-full flex overflow-x-hidden">
+          <div className="flex animate-scroll-logos py-4">
+            {allSponsors.map((sponsor, index) => (
+              <div key={`${sponsor.id}-${index}`} className="flex-shrink-0 mx-6">
+                <Image
+                  src={sponsor.src}
+                  alt={`${sponsor.name} logo`}
+                  width={150}
+                  height={150}
+                  className="h-24 w-auto object-contain"
+                  priority={index < emptySponsors.length}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
