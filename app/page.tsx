@@ -209,7 +209,7 @@ export default function HomePage() {
                   alt={`${sponsor.name} logo`}
                   width={250}
                   height={250}
-                  className="h-24 w-auto object-contain"
+                  className="h-64 w-auto object-contain"
                   priority={index < emptySponsors.length}
                 />
               </div>
