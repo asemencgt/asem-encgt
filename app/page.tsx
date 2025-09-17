@@ -207,8 +207,8 @@ export default function HomePage() {
                 <Image
                   src={sponsor.src}
                   alt={`${sponsor.name} logo`}
-                  width={150}
-                  height={150}
+                  width={250}
+                  height={250}
                   className="h-24 w-auto object-contain"
                   priority={index < emptySponsors.length}
                 />
