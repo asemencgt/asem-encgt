@@ -121,3 +121,16 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes scroll-logos {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* Change the direction to right-to-left */
+  }
+}
+
+.animate-scroll-logos {
+  animation: scroll-logos 30s linear infinite;
+}
