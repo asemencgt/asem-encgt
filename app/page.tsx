@@ -7,12 +7,12 @@ import Image from "next/image"
 
 // Data for sponsors (you can fill in your image paths)
 const emptySponsors = [
-  { id: 1, name: "Sponsor 1", src: "/images/sponsors/sponsor-1.png" },
-  { id: 2, name: "Sponsor 2", src: "/images/sponsors/sponsor-2.png" },
-  { id: 3, name: "Sponsor 3", src: "/images/sponsors/sponsor-3.png" },
-  { id: 4, name: "Sponsor 4", src: "/images/sponsors/sponsor-4.png" },
-  { id: 5, name: "Sponsor 5", src: "/images/sponsors/sponsor-5.png" },
-  { id: 6, name: "Sponsor 6", src: "/images/sponsors/sponsor-6.png" },
+  { id: 1, name: "Sponsor 1", src: "images/bennis GI.png" },
+  { id: 2, name: "Sponsor 2", src: "images/camara.png" },
+  { id: 3, name: "Sponsor 3", src: "images/erum.png" },
+  { id: 4, name: "Sponsor 4", src: "images/goodfood.png" },
+  { id: 5, name: "Sponsor 5", src: "images/oxynord.png" },
+  { id: 6, name: "Sponsor 6", src: "images/sidi ali.png" },
 ];
 
 // Duplicate the list to create a seamless infinite loop
