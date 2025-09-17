@@ -7,7 +7,7 @@ import Image from "next/image"
 
 // Data for sponsors (you can fill in your image paths)
 const emptySponsors = [
-  { id: 1, name: "Sponsor 1", src: "images/bennis GI.png" },
+  { id: 1, name: "Sponsor 1", src: "/images/bennis GI.png" },
   { id: 2, name: "Sponsor 2", src: "images/camara.png" },
   { id: 3, name: "Sponsor 3", src: "images/erum.png" },
   { id: 4, name: "Sponsor 4", src: "images/goodfood.png" },
