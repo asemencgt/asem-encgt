@@ -13,7 +13,6 @@ const emptySponsors = [
   { id: 4, name: "Sponsor 4", src: "images/goodfood.png" },
   { id: 5, name: "Sponsor 5", src: "images/oxynord.png" },
   { id: 6, name: "Sponsor 6", src: "images/sidi ali.png" },
-  { id: 7, name: "Sponsor 6", src: "images/strugal.png" },
 ];
 
 // Duplicate the list to create a seamless infinite loop
