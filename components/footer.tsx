@@ -12,8 +12,8 @@ export function Footer() {
               <Image
                 src="images/asem-logo.png"
                 alt="ASEM Logo"
-                width={40}
-                height={40}
+                width={50}
+                height={50}
                 className="w-8 h-8 brightness-0 invert"
               />
               <span className="text-xl font-bold">ASEM</span>
@@ -22,10 +22,18 @@ export function Footer() {
               ASEM, la joie qu'on sème ✨
             </p>
             <div className="flex space-x-4">
-              <Facebook className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
-              <Twitter className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
-              <Instagram className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
-              <Linkedin className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
+              <a href="https://www.facebook.com/your-username-here" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
+              </a>
+              <a href="https://www.tiktok.com/@your-username-here" target="_blank" rel="noopener noreferrer">
+                  <TikTok className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
+              </a>
+              <a href="https://https://www.instagram.com/asem.encgt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
+              </a>
+              <a href="https://www.linkedin.com/in/your-username-here" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
+              </a>
             </div>
           </div>
           
