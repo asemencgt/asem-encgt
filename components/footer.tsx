@@ -26,7 +26,7 @@ export function Footer() {
                   <Facebook className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
               </a>
               <a href="https://www.tiktok.com/@asem.encgt?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
-                  <TikTok className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
+                  <Twitter className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
               </a>
               <a href="https://https://www.instagram.com/asem.encgt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
                   <Instagram className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
@@ -60,7 +60,6 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-amber-200">
-              <li>ASEM ENCGT</li>
               <li>Tangier, Morocco</li>
               <li>Airport Road, P.O. 1255</li>
               <li>+212 770-353602</li>
