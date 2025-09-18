@@ -193,7 +193,7 @@ export default function HomePage() {
       </section>
 
       {/* Sponsors Section (Added Directly) */}
-      <section className="py-20 bg-white overflow-hidden" aria-labelledby="sponsors-heading">
+      <section id="partnerships" className="py-20 bg-white overflow-hidden" aria-labelledby="sponsors-heading">
         <div className="container mx-auto px-4">
           <h2 id="sponsors-heading" className="text-4xl font-bold text-center mb-12 text-amber-900">
             Nos Partenaires
