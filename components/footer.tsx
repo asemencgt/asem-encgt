@@ -28,7 +28,7 @@ export function Footer() {
               <a href="https://www.tiktok.com/@asem.encgt?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
                   <Twitter className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
               </a>
-              <a href="https://https://www.instagram.com/asem.encgt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+              <a href="https://https://www.instagram.com/asem.encgt?igsh=MXVnYTV6dnlqNzNrbA==" target="_blank" rel="noopener noreferrer">
                   <Instagram className="h-5 w-5 text-amber-200 hover:text-white cursor-pointer" />
               </a>
               <a href="https://www.linkedin.com/company/fondation-asem/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
