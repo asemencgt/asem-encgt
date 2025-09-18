@@ -53,7 +53,7 @@ export function Footer() {
               <li><Link href="/volunteer" className="text-amber-200 hover:text-white">Volunteer</Link></li>
               <li><Link href="/donate" className="text-amber-200 hover:text-white">Donate</Link></li>
               <li><Link href="/join" className="text-amber-200 hover:text-white">Join Us</Link></li>
-              <li><Link href="/partnerships" className="text-amber-200 hover:text-white">Partnerships</Link></li>
+              <li><Link href="/#partnerships" className="text-amber-200 hover:text-white">Partnerships</Link></li>
             </ul>
           </div>
           
