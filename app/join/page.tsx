@@ -12,7 +12,7 @@ import Image from "next/image"
 export default function JoinPage() {
   const handleRedirect = () => {
     // You MUST replace this placeholder URL with your actual Google Forms link.
-    window.open("https://forms.gle/DNGdDN72tJ4kTthU7", "_blank");
+    window.open("https://forms.gle/KSctHU8Zjak8qmCL7", "_blank");
   };
   return (
     <div className="min-h-screen pt-16">
